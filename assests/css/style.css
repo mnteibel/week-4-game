@@ -1,0 +1,19 @@
+body{
+	background-image: url("../images/agsquare.png");
+}
+#yellowbtn, #redbtn, #bluebtn, #greenbtn{
+
+}
+
+#yellowbtn,{
+	background-color:#F7CAC9;
+}
+#redbtn{
+	background-color:#98DDDE;
+}
+#bluebtn{
+	background-color:#DFCFBE;
+}
+#greenbtn{
+	background-color:#FAE03C; 
+}

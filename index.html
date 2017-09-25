@@ -1,0 +1,41 @@
+<html>
+	<head>
+		<title>Crystal Collector</title>
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+		<link rel="stylesheet" href="assests/css/style.css">
+	
+		<script src="https://code.jquery.com/jquery.js"></script>
+
+	</head>
+	<body>
+
+		<div class="container">
+
+			<div class="row">
+				<h1 class="text-right">Crystal Collector</strong></h1>
+				<h4 class="text-right">Rated M for Max</h4>
+			</div>
+			<div class="row">
+				<button id="yellowbtn"><img src="https://ia-crystal-collector.herokuapp.com/assets/images/yellow_gem.jpg" width="100" height="100"></button>
+				<button id="redbtn"><img src="https://ia-crystal-collector.herokuapp.com/assets/images/pink_gem.jpg" width="100" height="100"></button>
+				<button id="bluebtn"><img src="https://ia-crystal-collector.herokuapp.com/assets/images/blue_gem.jpg" width="100" height="100"></button>
+				<button id="greenbtn"><img src="https://ia-crystal-collector.herokuapp.com/assets/images/green_gem.jpg" width="100" height="100"></button>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<h4>Number<div class="total"></div></h4>
+					<h4>Your Number<div class="addNum"></div></h4>
+				</div>
+				<div class="col-md-4">
+					<h4>Wins:<div class="winsNum"></h4>
+					<h4>Loses:<div class="losesNum"></h4>
+				</div>
+			</div>
+			<h1 id ="message" class="text-center"><strong><div class="loseMessage"></div><div class="winMessage"></div></strong>
+			</h1>
+		</div>
+		<script type="text/javascript" src="assests/javascript/game.js"></script>
+	</body>
+</html>
